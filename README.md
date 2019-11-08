@@ -45,7 +45,7 @@ would be more inline. However on mobile first you could then decide to scale up 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-converts rems into 10px. So 1rem = 10px.
+Converts rems into 10px. So 1rem = 10px.
 
 
 4. How would you describe preprocessing to someone new to CSS?
