@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+The difference between an adaptive website vs a fully responsive website is that, an adaptive website uses hardcoded values for layout
+while a fully responsive website will use responsive units of measure such as rems and percentages for example.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Desktop first and mobile first refer to how the website is going to be desiged for first. If it's desktop first you'd design it for viewing 
+on a pc browser and scale down using max-width to use on mobile. Mobile first would be desinged for using on a phone browser and the layout
+would be more inline. However on mobile first you could then decide to scale up to bigger screens using min-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Converts rems into 10px. So 1rem = 10px.
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would describe preprocessing as an easier way to write CSS. While it may look like CSS it's actually a different langauge that compiles 
+down to CSS. It also makes organizing files easier because you could have a file just for your header and nav section and linking it to index.less
+to be compiled into CSS instead of having to scroll up and down in one big CSS file which is annoying.
+What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of preprocessing is using variables instead of hardcoding certain values. It gives you more control and also allows to edit the value in one place instead of finding each time you used it.
+I wouldn't say that there is a concept that gave me the most trouble. I thought preprocessing was easy to use and to get used to and every concept that was given with preprocessing I felt had equal difficulty but nothing
+that was truly stumping, just need more practice with it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -1,1 +1,24 @@
 // Mixins Here
+.button(@bgColor, @size, @fontColor, @pad)
+{
+    border: 2px solid @bgColor;
+    background-color: @bgColor;
+    color: @fontColor;
+    border-radius: 5px;
+    width: @size;
+    text-align: center;
+    font-size: 2rem;
+    padding: @pad;
+}
+
+.mobileReSize(@margin)
+{   
+    width: 90%;
+    margin: @margin;
+}
+
+.flexCenter()
+{  
+    display:flex;
+    justify-content: center;
+}
