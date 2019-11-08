@@ -6,10 +6,28 @@
 
     h2 {
       padding: 15px;
+
+      @media @mobile
+      {
+        padding-left: 5%;
+      }
     }
 
     p {
       padding:0 15px;
+
+      @media @mobile
+      {
+        padding-left: 5%;
+      }
+    }
+
+    .headerImage
+    {
+      @media @mobile
+      {
+        width: 100%;
+      }
     }
   
   }
@@ -28,9 +46,6 @@
       @media @mobile
       {
         .mobileReSize(3%);
-        /*width: 90%;
-        //padding: 0;
-        margin: 3%;*/
       }
     }
 
@@ -90,11 +105,12 @@
 
       .btn 
       {
-        .button(@btn-bg-color, 30%, @porcelain);
+        .button(@btn-bg-color, 30%, @porcelain, 3%);
 
         @media @mobile
         {
           width: 100%;
+          .button(@btn-bg-color, 100%, @porcelain, 5%);
         }
       }
     }

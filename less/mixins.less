@@ -1,5 +1,5 @@
 // Mixins Here
-.button(@bgColor, @size, @fontColor)
+.button(@bgColor, @size, @fontColor, @pad)
 {
     border: 2px solid @bgColor;
     background-color: @bgColor;
@@ -8,7 +8,7 @@
     width: @size;
     text-align: center;
     font-size: 2rem;
-    padding: 3%;
+    padding: @pad;
 }
 
 .mobileReSize(@margin)
